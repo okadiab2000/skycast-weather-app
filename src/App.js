@@ -145,7 +145,7 @@ function App() {
         controller.abort();
       };
     },
-    [place, refreshKey, temp, windSpeed, precipitation],
+    [place, refreshKey, temp, windSpeed, precipitation, weaUrl, geoUrl],
   );
 
   return (
