@@ -114,6 +114,11 @@ ul {
 
   div.weather-section > div.weather-details > .background-image {
     position: absolute;
+    top: 0;
+    left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   }
 
   div.weather-details > div:nth-child(2) h2 {
