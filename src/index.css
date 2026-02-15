@@ -59,7 +59,7 @@ ul {
 
 /* Start Media queries */
 
-@media (max-width: 500px) {
+@media (max-width: 1030px) {
   .container {
     padding: 20px 30px;
   }
