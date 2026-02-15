@@ -104,7 +104,7 @@ function App() {
           setIsLoading(true);
           setError("");
           const res = await fetch(
-            `${geoUrl}?name=${place}&count=1&language=en&format=json`,
+            `https://geocoding-api.open-meteo.com/v1/search?name=${place}&count=1&language=en&format=json`,
             { signal: controller.signal },
           );
 
@@ -115,7 +115,7 @@ function App() {
           setCountryData(location);
 
           const res2 = await fetch(
-            `${weaUrl}?` +
+            `https://api.open-meteo.com/v1/forecast?` +
               `latitude=${location.latitude}&` +
               `longitude=${location.longitude}&` +
               `current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,wind_speed_10m,weather_code&` +
