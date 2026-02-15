@@ -86,6 +86,12 @@ ul {
     gap: 15px;
     position: relative;
   }
+  
+  .landing input {
+
+  max-width: unset !important;
+
+}
 
   .landing img {
     top: 11%;
