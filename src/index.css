@@ -134,6 +134,7 @@ ul {
   div.weather-details > div:nth-child(3) {
     gap: 30px;
     margin-bottom: auto;
+    justify-content: center;
   }
   #root
     > div
