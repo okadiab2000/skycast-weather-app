@@ -46,11 +46,21 @@ Effect Management: Used useEffect with AbortController to handle race conditions
 Data Slicing: Implemented logic to slice 168 hours of API data into specific 24-hour segments based on user selection.
 
 📸 Screenshots
-Desktop ViewMobile View
+
+Desktop View
+
+
+![desktop-design-imperial](https://github.com/user-attachments/assets/701015c7-e283-42a0-ac93-49c980bfe66d)
+
+Mobile View
+
+
+![mobile-design-imperial](https://github.com/user-attachments/assets/94ce9313-dbc7-4e4e-8340-6b3b228add46)
 
 🔧 Installation & SetupClone the repository:Bashgit clone https://github.com/your-username/skycast-weather-app.git
 Install dependencies:Bashnpm install
 Start the development server:Bashnpm start
+
 👨‍💻 AuthorYour 
 NameGitHub: okadiab2000
 LinkedIn: Mohamed Ismail
